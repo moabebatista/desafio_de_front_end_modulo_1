@@ -1,0 +1,114 @@
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    
+    padding: 65px 165px 0px 165px;
+
+    width: 1440px;
+}
+
+.contat-text {
+    display: flex;
+
+    width: 1110px;
+    height: 355px;
+
+    margin-bottom: 47px;
+}
+
+.title-contat {
+    min-width: 42%;
+}
+
+.title-contat h1 {
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    margin-top: 48px;
+}
+
+.text-presentation p {
+    font-size: 16px;
+    line-height: 30px;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin-top: 48px;
+    margin-bottom: 54px;
+}
+
+.text-presentation a {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.contat-form {
+    display: flex;
+
+    width: 1110px;
+    height: 426px;
+    margin-bottom: 110px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;  
+}
+
+.form label {
+    font-size: 13px;
+    line-height: 30px;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.form input:focus {
+    background-color: rgb(235, 222, 222);
+}
+
+.min { 
+    all: unset;
+    width: 630px;
+    height: 48px;
+}
+
+.max {
+    all: unset;
+    height: 96px;
+    margin-bottom: 24px;
+}
+
+.min, .max {
+    background: #EAEAEB;
+    padding-left: 10px
+}
+
+.form button {
+    all: unset;
+    background: #203A4C;
+    width: 200px;
+    height: 48px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFF;
+}
+
+.form button:hover {
+    background: rgb(95, 180, 162);
+}

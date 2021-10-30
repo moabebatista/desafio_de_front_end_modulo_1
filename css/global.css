@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.container {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 165px 0px 165px;
+
+    width: 1440px;
+}
+
+/*font-fammily-Public Sans*/
+
+.container p, ul, span, a, label {
+    font-family: 'Public Sans', sans-serif;
+}
+
+/*--------------------------------------------------*/
+
+/*font-fammily-Ibarra Real Nova*/
+
+.container h1 {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+/*--------------------------------------------------*/
+
+/*color-principal*/
+
+.container h1, p, ul, span, a, label, .title-contat {
+    color: #33323D;
+}
+
+/*--------------------------------------------------*/
+
+/*Cabeçalho de todas as páginas*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1111px;
+    height: 32px;
+    margin-bottom: 55px;
+}
+
+.browser ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.browser li, a {
+    margin-left: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.current {
+    color: #5FB4A2;
+}
+
+/*seção de contato de todas as paginas, exceto a página contato*/
+
+.contato-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+    height: 84px;
+
+    margin-bottom: 150px;
+}
+
+.contato-section h1 {
+    width: 367px;
+    height: 84px;
+
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+}
+
+.contato-section button {
+    width: 168px;
+    height: 48px;
+
+    background-color: #FFF;
+    border: #7b7a8b solid 0.1px;
+}
+
+.contato-section a {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin: 17px;
+}
+
+/*--------------------------------------------------*/
+
+.rodape, .left, .browser-rodape ul, .description-project, .colunm-left, .text-min, .pre-rodape, .btn, .anterior, .proximo {
+    display: flex;
+}
+
+/*rodapé de todas as páginas*/
+
+.rodape {
+    justify-content: space-between;
+
+    width: 1440px;
+    height: 80px;
+
+    background: #33323D;
+    padding: 28px 165px;
+}
+
+.left {
+    flex-direction: row;
+    color: #FFF;
+}
+
+.browser-rodape ul {
+    list-style-type: none;
+}
+
+.browser-rodape a {
+    color: #FFF;
+}
+
+.hero-portifolios {
+    width: 1110px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 115px;
+}
+
+/*--------------------------------------------------*/
+
+/*seção descrição dos portifólios*/
+
+.description-project {
+    width: 1110px;
+    height: 1192px;
+
+    margin-bottom: 90px;
+}
+
+.description-project img {
+    width: 635px;
+    height: 400px;
+    margin-top: 32px;
+}
+
+.description-project h1 {
+    letter-spacing: -0.357143px;
+
+    margin-bottom: 30px;
+}
+
+.description-project p {
+    font-size: 15px;
+    line-height: 30px;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.colunm-left {
+    min-width: 42%;
+}
+
+.colunm-left h1 {
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 50px;
+}
+
+.colunm-left P {
+    margin-bottom: 53px;
+}
+
+.colunm-left span {
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #5FB4A2;
+}
+
+.colunm-left button {
+    background-color: #FFF;
+
+    width: 178px;
+    height: 48px;
+
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin-top: 35px;
+
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+}
+
+.text-min {
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+}
+
+.colunm-right {
+    width: 635px;
+}
+
+.h1-c2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.colunm-right P {
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------------*/
+
+.text-min, .pre-rodape, .estilo, .contat-text {
+    border-top: 0.1px solid rgba(122, 118, 143, 0.15);
+    border-bottom: 0.1px solid rgba(122, 118, 143, 0.15);
+}
+
+/*pré rodapé dos portifólios*/
+
+.pre-rodape {
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 132px;
+
+    margin-bottom: 115px;
+}
+
+.btn {
+    align-items: center;
+}
+
+.pre-rodape h1 {
+    font-size: 32px;
+    line-height: 36px;
+
+    letter-spacing: -0.285714px;
+}
+
+.pre-rodape a  {
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    text-transform: none;
+    opacity: 0.5;
+}
+.anterior {
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.anterior a {
+    margin-left: 0;
+}
+
+.proximo {
+    text-align: right;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.proximo a {
+    margin-right: 0;
+}
+
+.btn-contato, .btn-portifolio, .btn-ver-projeto, .btn-visitar {
+    text-align: center;
+    padding: 17px 50px;
+    border: 1px solid;
+}
+
+.hover:hover {
+    color: white;
+   background: #33323D;
+}
+
+.btn-visitar {
+    margin: 30px 160px 0px 0px;
+}
+
+/*--------------------------------------------------*/

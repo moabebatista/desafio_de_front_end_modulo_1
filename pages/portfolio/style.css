@@ -1,0 +1,77 @@
+
+.manage-insure, .bookmark-fylo {
+    display: flex;
+
+    width: 1015px;
+    height: 520px;
+
+    margin-bottom: 80px;
+}
+
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 520px;
+    min-width: 55%;
+}
+
+.text-portifolio-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    margin-left: 120px;
+}
+
+.estilo h1 {
+    font-size: 40px;
+    line-height: 42px;
+
+    margin-bottom: 28px;
+    letter-spacing: -0.357143px;
+}
+
+.estilo p {
+    font-size: 16px;
+    line-height: 30px;
+
+    width: 350px;
+    height: 120px;
+
+    margin-bottom: 54px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.estilo a {
+    margin: 0px 145px 0px 0px;
+
+}
+
+.text-portifolio-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    margin-right: 120px;
+}
+
+.manage-img {
+    background-image: url("../../assets/portfolio/manage/image-portfolio-manage.jpg"); 
+}
+
+.bookmark-img {
+    background-image: url("../../assets/portfolio/bookmark/image-portfolio-bookmark.jpg");
+}
+
+.insure-img {
+    background-image: url("../../assets/portfolio/insure/image-portfolio-insure.jpg");
+}
+
+.fylo-img {
+    background-image: url("../../assets/portfolio/fylo/image-portfolio-fylo.jpg");
+}
