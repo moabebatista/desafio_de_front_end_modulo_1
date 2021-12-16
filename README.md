@@ -13,6 +13,10 @@ Desenvolvimento de WebSite Portifólio.
  - [Portfolio - 04 - Fylo](#Portfolio---04---Fylo)
  - [Contato](#Contato)
 
+## Video do Projeto Pronto
+
+[:video_camera: click aqui](https://www.linkedin.com/posts/moabe-batista-42b853197_javascript-backend-hackerrank-activity-6843964980405014529-fKjp/)
+ 
 ### Home
 
 Seções
